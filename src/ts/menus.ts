@@ -129,7 +129,7 @@ export function bar (repoLink: string, mainWindow: BrowserWindow, strings: json)
 				}
 			}
 		]},
-			/* An unused placeholder
+			// An unused placeholder
 			{
 			
 				label: "Template",
@@ -151,7 +151,7 @@ export function bar (repoLink: string, mainWindow: BrowserWindow, strings: json)
 				}
 				
 			}
-			*/
+			
 		{ label: strings.help.groupName, role: 'help', submenu: [
 			{ label: strings.help.about, role: 'about', click: function() { app.showAboutPanel();}},
 			{ label: strings.help.repo, click: function() { shell.openExternal(webLink);} },
