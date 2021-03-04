@@ -62,8 +62,8 @@ function loadTranslations() {
 }
 
 // Vars to modify app behavior
-const repoName = "SpacingBat3/electron-discord-webapp";
-const appURL = 'https://discord.com/app';
+const repoName = "oxmc/electron-Spotify-webapp";
+const appURL = 'https://spotify.com';
 const appIcon = `${appIconDir}/app.png`;
 const appTrayIcon = `${appDir}/icons/tray.png`;
 const appTrayPing = `${appDir}/icons/tray-ping.png`;
@@ -75,7 +75,7 @@ const winHeight = 600;
 const appFullName = app.getName()
 const appVersion = packageJson.version;
 const appAuthor = packageJson.author.name;
-const appYear = '2020'; // the year since this app exists
+const appYear = '2021'; // the year since this app exists
 const updateYear = '2021'; // the year when the last update got released
 const appRepo = packageJson.homepage;
 const chromiumVersion = process.versions.chrome;
@@ -164,7 +164,7 @@ async function checkVersion(){
     console.log(`[UPDATE] ${updateMsg}`)
 
     const updatePopup = {
-        title: 'Electron Discord Web App: Update is available!',
+        title: 'Electron Spotify Web App: Update is available!',
         icon: appIcon,
         body: updateMsg
     }
