@@ -9,9 +9,9 @@ const packageJson = require("../../package.json");
 
 // Global variables in the config:
 const iconFile = "icons/app.png"
-const desktopName = "Discord (Web App)"
-const desktopGeneric = "Internet Messenger"
-const desktopCategories = ["Network","InstantMessaging"]
+const desktopName = "Spotify (Web App)"
+const desktopGeneric = "Internet Music"
+const desktopCategories = ["Network","Audio"]
 
 module.exports = {
   packagerConfig: {
@@ -35,7 +35,7 @@ module.exports = {
     {
       name: "@electron-forge/maker-squirrel",
       config: {
-        name: "electron_discord_webapp"
+        name: "electron_Spotify_webapp"
       }
     },
     {
